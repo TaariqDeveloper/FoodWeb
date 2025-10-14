@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { assets } from './../Images/assets';
-import search_icon from './../Images/search_icon.png';
+
+import search_icon from '../../Images/search_icon.png'
+import { assets } from '../../Images/assets.js'
+
+
 
 function Navbar() {
         const [menu, setMenu] = useState("mobile")
