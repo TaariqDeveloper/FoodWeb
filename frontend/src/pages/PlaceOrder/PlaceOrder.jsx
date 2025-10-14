@@ -1,7 +1,6 @@
 import React from 'react'
-import './Cart.css'
-
-function Cart() {
+import './PlaceOrder.css'
+function PlaceOrder() {
     return (
         <div>
 
@@ -9,4 +8,4 @@ function Cart() {
     )
 }
 
-export default Cart
+export default PlaceOrder
