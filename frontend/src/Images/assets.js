@@ -6,6 +6,8 @@ import bag_icon from "./bag_icon.png";
 import basket_icon from "./basket_icon.png";
 import cross_icon from "./cross_icon.png";
 import facebook_icon from "./facebook_icon.png";
+
+
 import food_1 from "./food_1.png";
 import food_2 from "./food_2.png";
 import food_3 from "./food_3.png";
@@ -42,6 +44,7 @@ import header_img from "./header_img.png";
 import linkedin_icon from "./linkedin_icon.png";
 import logo from "./logo.png";
 import logout_icon from "./logout_icon.png";
+
 import menu_1 from "./menu_1.png";
 import menu_2 from "./menu_2.png";
 import menu_3 from "./menu_3.png";
@@ -50,6 +53,8 @@ import menu_5 from "./menu_5.png";
 import menu_6 from "./menu_6.png";
 import menu_7 from "./menu_7.png";
 import menu_8 from "./menu_8.png";
+
+
 import order_icon from "./order_icon.png";
 import parcel_icon from "./parcel_icon.png";
 import play_store from "./play_store.png";
@@ -131,3 +136,15 @@ export const assets = {
 };
 
 export const url = "http://localhost:4000";
+
+// A simple menu list used by the ExploreMenue component
+export const menu_list = [
+  { menu_name: 'Burgers', menu_image: menu_1 },
+  { menu_name: 'Pizza', menu_image: menu_2 },
+  { menu_name: 'Sushi', menu_image: menu_3 },
+  { menu_name: 'Salads', menu_image: menu_4 },
+  { menu_name: 'Desserts', menu_image: menu_5 },
+  { menu_name: 'Drinks', menu_image: menu_6 },
+  { menu_name: 'Wraps', menu_image: menu_7 },
+  { menu_name: 'Rice Bowls', menu_image: menu_8 },
+]
