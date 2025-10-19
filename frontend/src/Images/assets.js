@@ -147,4 +147,5 @@ export const menu_list = [
   { menu_name: 'Drinks', menu_image: menu_6 },
   { menu_name: 'Wraps', menu_image: menu_7 },
   { menu_name: 'Rice Bowls', menu_image: menu_8 },
+  
 ]
